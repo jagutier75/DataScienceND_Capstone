@@ -1,3 +1,21 @@
+# Software Requirements
+
+## Python libraries
+
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- sklearn
+- torch
+- scipy (Pytorch)
+- re (Regular expressions)
+- pickle
+- os 
+- plotly.express
+
+# Project Definition 
+
 ## Project overview 
 
 Arvato is an internationally active services company that develops and implements innovative solutions for business customers from around the world (Bertelsmann, 2022). In this project, Bertelsmann and Arvato are looking for methods to acquire customers more efficiently for their Mail-order company (selling organic products). To do so, they have gathered demographic and attribute data from the German population and from already existing customers. These datasets are built from several sources and contain a great variety of information such as demographics, consumer preferences, spending behavior, etc. We should be able to gain insight from this information to find a way to recognize possible customers in a more efficient way. 
@@ -44,3 +62,63 @@ The outputs of these three models will be weighted and combined to give a final 
 ## Metrics
 
 While tuning the different models, accuracy, precision, and the F1-score are used as auxiliary metrics, however, the most important metric to take into consideration is **recall**. The reason for this is that we care more about reducing the number of false negatives, i.e., people that are tagged as not-customers by the model when they have indeed a high probability of becoming one. 
+
+# Analysis
+
+## Data Exploration
+
+Features and calculated statistics relevant to the problem have been reported and discussed related to the dataset, and a thorough description of the input space or input data has been made. Abnormalities or characteristics about the data or input that need to be addressed have been identified.
+
+## Data Visualization
+
+Build data visualizations to further convey the information associated with your data exploration journey. Ensure that visualizations are appropriate for the data values you are plotting.
+
+![Population clustering](images/clustering_general_population.PNG)
+![Customer clustering](images/clustering_customer.PNG)
+![Barchart](images/Barchart_population_customers.PNG)
+![Customer Characteristics](images/Customer_characteristics.PNG)
+
+
+# Methodology
+
+## Data Preprocessing
+
+All preprocessing steps have been clearly documented. Abnormalities or characteristics about the data or input that needed to be addressed have been corrected. If no data preprocessing is necessary, it has been clearly justified.
+
+## Implementation
+
+The process for which metrics, algorithms, and techniques were implemented with the given datasets or input data has been thoroughly documented. Complications that occurred during the coding process are discussed.
+
+## Refinement
+
+The process of improving upon the algorithms and techniques used is clearly documented. Both the initial and final solutions are reported, along with intermediate solutions, if necessary.
+
+# Results
+
+## Model Evaluation and Validation
+
+If a model is used, the following should hold: The final model’s qualities — such as parameters — are evaluated in detail.
+
+Some type of analysis is used to validate the robustness of the model’s solution. For example, you can use cross-validation to find the best parameters.
+
+Show and compare the results using different models, parameters, or techniques in tabular forms or charts.
+
+Alternatively, a student may choose to answer questions with data visualizations or other means that don't involve machine learning if a different approach best helps them address their question(s) of interest.
+
+## Justification
+
+The final results are discussed in detail. Explain the exploration as to why some techniques worked better than others, or how improvements were made are documented.
+
+# Conclusion
+
+## Reflection 
+
+Student adequately summarizes the end-to-end problem solution and discusses one or two particular aspects of the project they found interesting or difficult.
+
+## Improvement
+
+Discussion is made as to how at least one aspect of the implementation could be improved. Potential solutions resulting from these improvements are considered and compared/contrasted to the current solution.
+
+
+
+
