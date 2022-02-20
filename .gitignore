@@ -1,0 +1,5 @@
+*.pkl
+*.xlsx
+*.csv
+*.docx
+.ipynb_checkpoints
